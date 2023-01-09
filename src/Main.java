@@ -28,6 +28,9 @@ public class Main {
         menoresDe5.forEach(System.out::println);
 
     }
+    f
+
+
 
 
 
