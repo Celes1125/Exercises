@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class UsandoMath {
+public class UsingMath {
     public static void main(String[] args) {
 
         //returning square root from a double type number
@@ -36,7 +36,7 @@ public class UsandoMath {
         System.out.println("Give me another double number and I'll return you the first number raised to the power of the second");
         double number5 = scanner4.nextDouble();
         double raisedNumber = Math.pow(number4, number5);
-        System.out.println(raisedNumber);*/
+        System.out.println(raisedNumber);
 
         //Returns a double value with a positive sign, greater than or equal to 0.0 and less than 1.0.
 
