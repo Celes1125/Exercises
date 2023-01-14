@@ -1,3 +1,4 @@
+package LoopsAndConditionals;
 
 //Using loops for make diferents arithmetic operations based on a data grid
 public class LoopsAndConditionals3 {

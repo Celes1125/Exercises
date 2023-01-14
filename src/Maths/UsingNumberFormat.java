@@ -1,3 +1,5 @@
+package Maths;
+
 import javax.swing.*;
 
 public class UsingNumberFormat {

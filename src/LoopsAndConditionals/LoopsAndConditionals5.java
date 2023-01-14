@@ -1,3 +1,5 @@
+package LoopsAndConditionals;
+
 import java.util.Scanner;
 
 //Conversión de monedas

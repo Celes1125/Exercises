@@ -1,3 +1,5 @@
+package LoopsAndConditionals;
+
 import java.util.Scanner;
 
 public class LoopsAndConditionals8 {

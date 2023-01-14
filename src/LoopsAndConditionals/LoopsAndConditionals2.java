@@ -1,3 +1,5 @@
+package LoopsAndConditionals;
+
 import java.util.Scanner;
 //Guessing if a number is prime
 public class LoopsAndConditionals2 {
