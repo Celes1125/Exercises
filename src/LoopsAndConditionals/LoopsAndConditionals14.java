@@ -1,18 +1,18 @@
 package LoopsAndConditionals;
 
 import javax.swing.*;
-import java.sql.SQLOutput;
-
 public class LoopsAndConditionals14 {
     //Guess a random number
     public static void main(String[] args) {
 
-        int randomNumber = (int)Math.random();
-        int enteredNumber = 0;
-        int attempts= 3;
+        int randomNumber = (int)(Math.random()*100);
+        //System.out.println(randomNumber);
+        int enteredNumber = 77;
+        int attempts= 0;
 
         while (randomNumber!=enteredNumber){
-            JOptionPane.showInputDialog("Guess the random number! You have " + attempts + "attemps");
+            enteredNumber= Integer.parseInt(JOptionPane.showInputDialog("Guess the random number!"));
+            attempts++;
 
             if(randomNumber>enteredNumber){
                 System.out.println("The random number is greater than the one you've entered");
@@ -21,7 +21,8 @@ public class LoopsAndConditionals14 {
             }
 
         }
-        System.out.println("Congrats! You've guess the random number");
+
+        System.out.println("Congrats! You've guess the random number in " + attempts +" attemps");
 
     }
 }
